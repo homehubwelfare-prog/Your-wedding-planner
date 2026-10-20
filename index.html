@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Beautiful digital wedding invitations, e-cards and animated video invitations.">
+<title>Your Digital Planner | Digital Invitations</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#home"><span class="brand-script">Your</span><span>Digital Planner</span><small>DIGITAL INVITATION CARDS</small></a>
+  <button class="menu-toggle" id="menuToggle" aria-label="Open menu">☰</button>
+  <nav id="nav"><a href="#home">Home</a><a href="#designs">Our Designs</a><a href="#services">What We Offer</a><a href="#contact">Contact</a><a class="nav-cta" href="https://wa.me/917409589875?text=Hi%20Your%20Digital%20Planner%2C%20I%20want%20to%20know%20about%20digital%20invitation%20cards." target="_blank" rel="noopener">WhatsApp Us</a></nav>
+</header>
+<main>
+<section class="hero" id="home">
+ <div class="hero-copy"><p class="eyebrow">DREAM IT · DESIGN IT · CELEBRATE IT</p><h1>Make every moment <em>beautiful.</em></h1>
+ <p class="lead">Beautiful digital wedding invitations, e-cards and video invitations for every special occasion.</p>
+ <div class="hero-actions"><a class="btn primary" href="#designs">Explore Designs <span>↗</span></a><a class="btn secondary" href="https://wa.me/917409589875?text=Hi%2C%20I%20want%20a%20custom%20digital%20invitation." target="_blank" rel="noopener">Create My Invitation</a></div>
+ <div class="hero-points"><span>♡ Custom designs</span><span>✦ WhatsApp-ready</span><span>₹79 starting price*</span></div></div>
+ <div class="hero-art"><div class="hero-glow"></div><img src="assets/hero-pamphlet.jpg" alt="Your Digital Planner invitation design and service pamphlet"><div class="floating-note">Your story,<br><i>beautifully invited.</i></div></div>
+</section>
+<section class="trust-strip"><span>WEDDINGS</span><i>✦</i><span>ENGAGEMENTS</span><i>✦</i><span>BIRTHDAYS</span><i>✦</i><span>CELEBRATIONS</span><i>✦</i><span>VIDEO INVITATIONS</span></section>
+<section class="section" id="designs">
+ <div class="section-heading"><p class="eyebrow">A LITTLE INSPIRATION</p><h2>Find a design <em>you love.</em></h2><p>Browse the invitation samples. Have a favourite? Message us to customise it for your occasion.</p></div>
+ <div class="filters" id="filters"><button class="filter active" data-filter="All">All Designs</button><button class="filter" data-filter="Wedding & Events">Wedding & Events</button><button class="filter" data-filter="Celebrations">Celebrations</button><button class="filter" data-filter="Chocolate & Gifts">Chocolate & Gifts</button><button class="filter" data-filter="My Uploads">Recently Added</button></div>
+ <div class="gallery" id="gallery" aria-live="polite"></div>
+ <p class="gallery-note">Design samples are for inspiration. Names, dates, colours and wording can be customised according to your event.</p>
+</section>
+<section class="video-section" id="video"><div class="video-copy"><p class="eyebrow">BRING YOUR INVITE TO LIFE</p><h2>Moving moments.<br><em>Made memorable.</em></h2><p>Explore video content and animated invitation inspiration. Contact us to discuss your own video invitation.</p><a class="btn light" href="https://wa.me/917409589875?text=Hi%2C%20I%20am%20interested%20in%20a%20video%20invitation." target="_blank" rel="noopener">Ask about video invites ↗</a></div><div class="video-frame"><video controls playsinline preload="metadata" poster="assets/hero-pamphlet.jpg"><source src="assets/showcase-video.mp4" type="video/mp4">Your browser does not support video playback.</video><span class="video-caption">A little preview from our creative collection</span></div></section>
+<section class="section services" id="services"><div class="section-heading"><p class="eyebrow">THOUGHTFULLY DESIGNED</p><h2>What we <em>offer.</em></h2></div><div class="service-grid">
+ <article><span class="service-icon">✎</span><h3>Customised Designs</h3><p>Personalised wording, colours and details to match your event.</p></article>
+ <article><span class="service-icon">◇</span><h3>Modern Templates</h3><p>Elegant, traditional, floral and contemporary invitation styles.</p></article>
+ <article><span class="service-icon">↗</span><h3>Digital Delivery</h3><p>Convenient files you can share with family and friends.</p></article>
+ <article><span class="service-icon">₹</span><h3>Affordable Pricing</h3><p>Digital invitation cards starting at ₹79, as shown in the flyer.</p></article>
+ <article><span class="service-icon">♡</span><h3>WhatsApp Ready</h3><p>Easy-to-share invitations for your guests.</p></article>
+</div></section>
+<section class="contact" id="contact"><p class="eyebrow">LET'S MAKE SOMETHING SPECIAL</p><h2>Your occasion deserves <em>a lovely invite.</em></h2><p>Tell us what you are celebrating, and we’ll help you choose a design.</p><a class="btn primary large" href="https://wa.me/917409589875?text=Hi%20Your%20Digital%20Planner%2C%20I%20would%20like%20to%20order%20a%20digital%20invitation." target="_blank" rel="noopener">WhatsApp: +91 74095 89875 ↗</a><small>*Starting price is based on the supplied pamphlet. Final price may depend on customisation.</small></section>
+</main>
+<footer><a class="brand footer-brand" href="#home"><span class="brand-script">Your</span><span>Digital Planner</span><small>DIGITAL INVITATION CARDS</small></a><p>Turning your special moments into beautiful digital memories.</p><span>© <span id="year"></span> Your Digital Planner</span></footer>
+<div class="lightbox" id="lightbox" aria-hidden="true"><button class="lightbox-close" id="lightboxClose" aria-label="Close">×</button><button class="lightbox-prev" id="lightboxPrev" aria-label="Previous">‹</button><img id="lightboxImage" alt="Selected invitation design"><button class="lightbox-next" id="lightboxNext" aria-label="Next">›</button><div id="lightboxTitle"></div></div>
+<script src="app.js"></script>
+</body></html>
